@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".ui.activities.LoginActivity">
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/cl_username_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:elevation="@dimen/_5sdp"
+            app:layout_constraintBottom_toTopOf="@id/cl_confm_password_et"
+            android:background="@drawable/layout_background">
+
+        <ImageView
+                android:id="@+id/iv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingRight="@dimen/_9sdp"
+                android:paddingLeft="@dimen/_4sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_mail_black_24dp"
+                app:layout_constraintTop_toTopOf="@id/et_user_name"
+                app:layout_constraintBottom_toBottomOf="@id/et_user_name"
+        />
+        <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="User name"
+                android:textColorHint="#000000"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:imeOptions="flagNoExtractUi"
+                android:padding="@dimen/_7sdp"
+                android:inputType="textNoSuggestions"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/iv_username"
+        />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/cl_email_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:elevation="@dimen/_5sdp"
+            app:layout_constraintTop_toBottomOf="@id/cl_username_et"
+            android:background="@drawable/layout_background"
+    >
+
+        <ImageView
+                android:id="@+id/iv_icons"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingLeft="@dimen/_9sdp"
+                android:paddingRight="@dimen/_4sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/ic_mail_black_24dp"
+                app:layout_constraintTop_toTopOf="@id/et_user_email"
+                app:layout_constraintBottom_toBottomOf="@id/et_user_email"
+        />
+        <EditText
+                android:id="@+id/et_user_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColorHint="#000000"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:imeOptions="flagNoExtractUi"
+                android:padding="@dimen/_7sdp"
+                android:inputType="textNoSuggestions"
+                app:layout_constraintStart_toEndOf="@id/iv_icons"
+                app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/cl_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:elevation="@dimen/_5sdp"
+            app:layout_constraintTop_toBottomOf="@id/cl_email_et"
+            android:background="@drawable/layout_background"
+    >
+
+        <ImageView
+                android:id="@+id/iv_icon_password"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingLeft="@dimen/_9sdp"
+                android:paddingRight="@dimen/_4sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/ic_vpn_key_black_24dp"
+                app:layout_constraintTop_toTopOf="@id/et_user_password"
+                app:layout_constraintBottom_toBottomOf="@id/et_user_password"
+        />
+        <EditText
+                android:id="@+id/et_user_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColorHint="#000000"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:imeOptions="flagNoExtractUi"
+                android:padding="@dimen/_7sdp"
+                android:inputType="textNoSuggestions"
+                app:layout_constraintStart_toEndOf="@id/iv_icon_password"
+                app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/cl_confm_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:elevation="@dimen/_5sdp"
+            app:layout_constraintTop_toBottomOf="@id/cl_password_et"
+            android:background="@drawable/layout_background"
+    >
+
+        <ImageView
+                android:id="@+id/iv_icon_confm_password"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingLeft="@dimen/_9sdp"
+                android:paddingRight="@dimen/_4sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/ic_vpn_key_black_24dp"
+                app:layout_constraintTop_toTopOf="@id/et_user_confm_password"
+                app:layout_constraintBottom_toBottomOf="@id/et_user_confm_password"
+        />
+        <EditText
+                android:id="@+id/et_user_confm_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:textColorHint="#000000"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="@drawable/edittext"
+                android:imeOptions="flagNoExtractUi"
+                android:padding="@dimen/_7sdp"
+                android:inputType="textNoSuggestions"
+                app:layout_constraintStart_toEndOf="@id/iv_icon_confm_password"
+                app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+            android:id="@+id/iv_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="@dimen/_15sdp"
+            android:gravity="center"
+            android:background="@drawable/edittext"
+            app:layout_constraintTop_toBottomOf="@id/cl_confm_password_et"
+            android:layout_marginTop="@dimen/_30sdp"
+    />
+
+    <ImageView
+            android:id="@+id/iv_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mail_black_24dp"
+            android:background="@drawable/image"
+            android:layout_marginTop="@dimen/_25sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_signup"
+    />
+
+    <ImageView
+            android:id="@+id/iv_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mail_black_24dp"
+            android:background="@drawable/image"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            app:layout_constraintEnd_toStartOf="@id/iv_google"
+            app:layout_constraintTop_toBottomOf="@id/iv_signup"
+    />
+    <ImageView
+            android:id="@+id/iv_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mail_black_24dp"
+            android:background="@drawable/image"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            app:layout_constraintStart_toEndOf="@id/iv_google"
+            app:layout_constraintTop_toBottomOf="@id/iv_signup"
+    />
+</android.support.constraint.ConstraintLayout>

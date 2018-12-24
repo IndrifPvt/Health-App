@@ -1,0 +1,166 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Health App</string>
+
+    <!--validations messages-->
+    <string name="err_msg_email_address">Please Enter Valid Email Address.</string>
+    <string name="err_msg_password">Please Enter Valid Password.</string>
+    <string name="err_msg_phone">Phone Number can not be Blank.</string>
+    <string name="err_msg_gender">Please choose gender.</string>
+    <string name="err_msg_password_length">Password must be 6 characters along with 1 special characters</string>
+    <string name="err_msg_current_password">Please fill current password</string>
+    <string name="err_msg_internet">Please check you internet connection.</string>
+    <string name="err_msg_full_name">Please Enter Valid Full Name.</string>
+    <string name="err_fullname_length_signup">Username must contain at least 3 characters.</string>
+    <string name="err_msg_confirm_password">Please Enter Valid Confirm Password.</string>
+    <string name="err_msg_same_confirm_password">Confirm Password should be same as Password.</string>
+    <string name="err_invalid_image">Please select valid image.</string>
+    <string name="err_permission_camera">Please consider granting it Camera permission to use camera.</string>
+    <string name="err_msg_buisness_name">Please Enter Business Name.</string>
+    <string name="err_msg_buisness_reg_no">Please Enter Business Registration no.</string>
+    <string name="err_msg_buisness_nature">Please Enter Nature of Business.</string>
+    <string name="err_msg_postal_code">Please Enter Valid Postal code.</string>
+    <string name="err_msg_contact_no">Please Enter Valid Contact Number.</string>
+    <string name="err_msg">Error</string>
+    <string name="success_msg">Success</string>
+    <string name="err_msg_pod_sign">Please upload POD and Signature</string>
+    <string name="logout_alert">LogOut</string>
+    <string name="logout_alert_msg">Do you really want to LogOut?</string>
+    <string name="password_reset_msg">New Password has been sent on your Email.</string>
+    <string name="pwd_email_sent">New Password Email has been sent.</string>
+
+    <!--Login Screen-->
+    <string name="hint_user_email">Email</string>
+    <string name="hint_user_password">Password</string>
+    <string name="forgot_pswd">Forgot Password?</string>
+    <string name="age_error">Enter Age</string>
+
+    <!--Dashboard Screen-->
+    <string name="dashboard_title">Jobs Allocated</string>
+    <string name="str_compled">Complete</string>
+    <string name="str_pending">Pending</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="err_no_data_found">No JOb Allocated</string>
+    <string name="hint_google_drive">GoogleDrive</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="select_images">Select Images</string>
+    <!--Forgot password-->
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_email">Enter your email address to request a password reset</string>
+    <string name="hint_your_email">Your Email Address</string>
+
+    <!--popup-->
+    <string name="str_uploading">Uploading...</string>
+    <string name="choose">CHOOSE ACTION</string>
+    <string name="title_activity_user_profile">Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Open</string>
+
+    <!--Bmi calculator-->
+
+    <string name="bmi_calculator">BMI CALCULATOR</string>
+    <string name="choose_height">Choose Height</string>
+    <string name="height">Height :</string>
+    <string name="feet">feet</string>
+    <string name="inch">inch</string>
+    <string name="metre">met</string>
+    <string name="centimetre">cm</string>
+    <string name="weight">Weight :</string>
+    <string name="result">Result :</string>
+    <string name="calculate_bmi">BMI CALCULATE</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="bmr_calculator">BMR CALCULATOR</string>
+    <string name="age">Age :</string>
+    <string name="gender">Gender :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="bmr_calculate">BMR CALCULATE</string>
+
+    <string name="calories_count">CALORIES COUNT</string>
+    <string name="start">START</string>
+    <string name="checklist">Checklist</string>
+    <string name="other">Other</string>
+    <string name="total">Total</string>
+    <string name="check_todaylist">CHECK TODAYLIST</string>
+    <string name="required_calories">Required Calories for You :</string>
+    <string name="diet">Diet</string>
+    <string name="cal">Cal</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="email">Email</string>
+    <string name="submit">SUBMIT</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="new_user">Sign Up Now</string>
+    <string name="name">Name</string>
+    <string name="hint_name">Username</string>
+    <string name="phone">Phone</string>
+    <string name="hint_phone">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="excersise">EXCERSISE BURN</string>
+    <string name="steps">Steps</string>
+    <string name="step_counter">Step Counter</string>
+    <string name="time">Time</string>
+    <string name="hour">hr</string>
+    <string name="today_calorie">TODAY CALORIES</string>
+    <string name="min">min</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="register">REGISTER</string>
+    <string name="account">NEED AN ACCOUNT?</string>
+<string name="pulse_counter">PULSE COUNTER</string>
+    <string name="tap_finger">Put finger on Camera to measure</string>
+    <string name="username">Username</string>
+    <string name="logout">LOGOUT</string>
+    <string name="update">UPDATE</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+<string name="zero">0</string>
+
+
+
+    <string name="kg">kg</string>
+    <string name="pounds">pounds</string>
+    <string name="met">metre</string>
+    <string name="no_data">No Data Found</string>
+    <string name="the_read">The Read Failed</string>
+    <string name="correct_height">Enter Correct Height</string>
+    <string name="correct_weight">Enter Correct Weight</string>
+    <string name="correct_age">Enter Correct Age</string>
+    <string name="correct_steps">Enter Correct Steps</string>
+    <string name="correct_time">Enter Correct Time</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="calorie">Calorie is</string>
+    <string name="calories">Calorie</string>
+    <string name="new_picture">New Picture</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_mobile">Enter Mobile Number</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_registerd_email">Enter your registered email id</string>
+    <string name="instructions_email">We have sent you instructions to reset your password!</string>
+    <string name="Failed_email">Failed to send reset email!</string>
+    <string name="enter_emailid">Enter email</string>
+    <string name="verify_email_sent">Verify Email Link Sent.</string>
+    <string name="verify_email">Verify Email Address</string>
+    <string name="time_remain">Time Remaining : </string>
+    <string name="sec">sec</string>
+    <string name="camera">From Camera</string>
+    <string name="failed">Failed</string>
+    <string name="no_image">No Image</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_weight">Weight (in pounds)</string>
+
+</resources>

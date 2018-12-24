@@ -1,0 +1,182 @@
+{
+  "project_info": {
+    "project_number": "738292031678",
+    "firebase_url": "https://fir-demo-361f5.firebaseio.com",
+    "project_id": "fir-demo-361f5",
+    "storage_bucket": "fir-demo-361f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738292031678:android:6e3259f73c812b32",
+        "android_client_info": {
+          "package_name": "com.softuvo.healthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738292031678-r82bta16u4p1s1au8tb7eup9ins16v8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJYf_E7CvR3HpLMqzSh_obcekuc7wb0VE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738292031678:android:70636854ad2ed018",
+        "android_client_info": {
+          "package_name": "com.softuvo.lotteryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738292031678-qbbujf3bpiibbmkn12bdc5du031ia57b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softuvo.lotteryapp",
+            "certificate_hash": "8e4d886b3e5f82835cbe1d7707de60d861e312ab"
+          }
+        },
+        {
+          "client_id": "738292031678-r82bta16u4p1s1au8tb7eup9ins16v8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJYf_E7CvR3HpLMqzSh_obcekuc7wb0VE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738292031678-r82bta16u4p1s1au8tb7eup9ins16v8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738292031678:android:066b62e6a661e7b7",
+        "android_client_info": {
+          "package_name": "com.softuvo.onesignaldemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738292031678-fr5kfr05bf26na181bilpau7fclemtfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softuvo.onesignaldemo",
+            "certificate_hash": "8e4d886b3e5f82835cbe1d7707de60d861e312ab"
+          }
+        },
+        {
+          "client_id": "738292031678-r82bta16u4p1s1au8tb7eup9ins16v8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJYf_E7CvR3HpLMqzSh_obcekuc7wb0VE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738292031678-r82bta16u4p1s1au8tb7eup9ins16v8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738292031678:android:d842af33038fad5c",
+        "android_client_info": {
+          "package_name": "info.androidhive.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738292031678-q6vuir7lt8p79o9h75cp769oi5cglilm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.androidhive.firebase",
+            "certificate_hash": "f0de15d1b473de20905a4c8c132b2f6938b6e594"
+          }
+        },
+        {
+          "client_id": "738292031678-ugu3gobo7ic3r1hokag5ubtrjpd9vg77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.androidhive.firebase",
+            "certificate_hash": "8e4d886b3e5f82835cbe1d7707de60d861e312ab"
+          }
+        },
+        {
+          "client_id": "738292031678-r82bta16u4p1s1au8tb7eup9ins16v8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJYf_E7CvR3HpLMqzSh_obcekuc7wb0VE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738292031678-r82bta16u4p1s1au8tb7eup9ins16v8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

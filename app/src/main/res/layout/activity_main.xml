@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="@dimen/_10sdp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activities.MainActivity">
+
+    <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_30sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+
+    <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:onClick="onClick"
+            android:src="@drawable/ic_person_black_24dp"
+            app:layout_constraintTop_toTopOf="@id/tv_main"
+            app:layout_constraintBottom_toBottomOf="@id/tv_main"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+    <Button
+            android:id="@+id/btn_bmr"
+            android:text="Bmr calculator"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/tv_main"
+    />
+    <Button
+            android:id="@+id/btn_bmi"
+            android:text="BMI Calculator"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/btn_bmr"
+    />
+    <Button
+            android:id="@+id/btn_excersise"
+            android:text="Excersise Burn"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/btn_bmi"
+    />
+    <Button
+            android:id="@+id/btn_calculate_calorie"
+            android:text="Calorie Counter"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/btn_excersise"
+    />
+    <Button
+            android:id="@+id/btn_calculate_steps"
+            android:text="Step Counter"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/btn_calculate_calorie"
+    />
+    <Button
+            android:id="@+id/btn_calculate_pulse"
+            android:text="Pulse Counter"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/btn_calculate_steps"
+    />
+    <Button
+            android:id="@+id/btn_logout"
+            android:text="@string/logout"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+    />
+</android.support.constraint.ConstraintLayout>

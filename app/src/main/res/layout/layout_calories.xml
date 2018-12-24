@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/_13sdp"
+>
+    <TextView
+            android:id="@+id/tv_required_calorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Required Calories for You: "
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_30sdp"
+            app:layout_constraintTop_toTopOf="parent"
+    />
+
+    <TextView
+            android:id="@+id/tv_diet"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Diet"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_required_calorie" />
+
+    <TextView
+            android:id="@+id/tv_cal"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Kal"
+            android:textSize="@dimen/_22sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_required_calorie" />
+
+    <TextView
+            android:id="@+id/tv_breakfast"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Breakfast"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_diet"
+    />
+
+    <TextView
+            android:id="@+id/tv_lunch"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Lunch"
+            android:textSize="@dimen/_22sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_breakfast"
+    />
+    <TextView
+            android:id="@+id/tv_dinner"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Dinner"
+            android:textSize="@dimen/_22sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_lunch"
+    />
+    <TextView
+            android:id="@+id/tv_snacks"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Snacks"
+            android:textSize="@dimen/_22sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_dinner"
+    />
+
+    <TextView
+            android:id="@+id/tv_other"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Other"
+            android:textSize="25dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_snacks"
+    />
+
+    <EditText
+            android:id="@+id/et_breakfast"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:inputType="number"
+            android:gravity="center"
+            android:hint="kal"
+            android:maxLength="4"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@id/tv_cal"
+            app:layout_constraintTop_toBottomOf="@id/tv_cal"
+    />
+    <EditText
+            android:id="@+id/et_lunch"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:inputType="number"
+            android:hint="kal"
+            android:maxLength="4"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@id/tv_cal"
+            app:layout_constraintTop_toBottomOf="@id/et_breakfast"
+    />
+
+    <EditText
+            android:id="@+id/et_dinner"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:inputType="number"
+            android:maxLength="4"
+            android:gravity="center"
+            android:hint="kal"
+            app:layout_constraintEnd_toEndOf="@id/tv_cal"
+            app:layout_constraintTop_toBottomOf="@id/et_lunch"
+    />
+    <EditText
+            android:id="@+id/et_snacks"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:inputType="number"
+            android:maxLength="4"
+            android:gravity="center"
+            android:hint="kal"
+            app:layout_constraintEnd_toEndOf="@id/tv_cal"
+            app:layout_constraintTop_toBottomOf="@id/et_dinner"
+    />
+    <EditText
+            android:id="@+id/et_other"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:hint="kal"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="@id/tv_cal"
+            app:layout_constraintTop_toBottomOf="@id/et_snacks"
+    />
+
+    <Button
+            android:id="@+id/btn_calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check today List"
+            android:textStyle="bold"
+            android:onClick="onClick"
+            android:background="@drawable/edittext"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@id/tv_other"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+</android.support.constraint.ConstraintLayout>

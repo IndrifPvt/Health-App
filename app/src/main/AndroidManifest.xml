@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.softuvo.healthapp">
+
+    <uses-feature
+            android:name="android.hardware.camera"
+            android:required="false"/>
+    <uses-feature
+            android:name="android.hardware.camera.autofocus"
+            android:required="false"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".ui.activities.MainActivity">
+        </activity>
+        <activity android:name=".ui.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".ui.activities.RegisterActivity"
+                android:windowSoftInputMode="adjustPan"
+                android:configChanges="keyboardHidden|orientation"
+                android:theme="@style/ActivityAppTheme."
+                android:label="@string/register"
+        >
+        </activity>
+        <activity
+                android:name=".ui.activities.LoginActivity"
+                android:windowSoftInputMode="adjustPan"
+                android:configChanges="keyboardHidden|orientation"
+        >
+        </activity>
+        <activity
+                android:name=".ui.activities.BmrCalculator"
+                android:windowSoftInputMode="adjustPan"
+                android:configChanges="keyboardHidden|orientation"
+                android:theme="@style/ActivityAppTheme."
+                android:label="@string/bmr_calculator"
+
+        >
+        </activity>
+        <activity
+                android:name=".ui.activities.BMICalculator"
+                android:windowSoftInputMode="adjustPan"
+                android:configChanges="keyboardHidden|orientation"
+                android:theme="@style/ActivityAppTheme."
+                android:label="@string/bmi_calculator"
+        >
+        </activity>
+        <activity android:name=".ui.activities.CaloriesCounter"
+                  android:windowSoftInputMode="adjustPan"
+                  android:theme="@style/ActivityAppTheme."
+                  android:label="@string/calories_count"
+                  android:configChanges="keyboardHidden|orientation"
+        >
+        </activity>
+        <activity android:name=".ui.activities.ExcersiseBurn"
+                  android:windowSoftInputMode="adjustPan"
+                  android:theme="@style/ActivityAppTheme."
+                  android:label="@string/excersise"
+                  android:configChanges="keyboardHidden|orientation"
+        >
+        </activity>
+        <activity android:name=".ui.activities.EverydayCalorieCount"
+                  android:windowSoftInputMode="adjustPan"
+                  android:theme="@style/ActivityAppTheme."
+                  android:label="@string/today_calorie"
+                  android:configChanges="keyboardHidden|orientation"
+        >
+        </activity>
+        <activity
+                android:name=".ui.activities.ForgotPassword"
+                android:windowSoftInputMode="adjustPan"
+                android:theme="@style/ActivityAppTheme."
+                android:configChanges="keyboardHidden|orientation"
+                android:label="@string/forgot_password"
+        >
+        </activity>
+        <activity
+                android:name=".ui.activities.StepCounter"
+                android:windowSoftInputMode="adjustPan"
+                android:theme="@style/ActivityAppTheme."
+                android:configChanges="keyboardHidden|orientation"
+                android:label="@string/step_counter"
+
+        >
+        </activity>
+        <activity
+                android:name=".ui.activities.UserProfile"
+                android:windowSoftInputMode="adjustPan"
+                android:theme="@style/ActivityAppTheme."
+                android:label="@string/title_activity_user_profile"
+                android:configChanges="keyboardHidden|orientation"
+        >
+        </activity>
+        <activity android:name=".ui.activities.PulseCounter"
+                  android:theme="@style/ActivityAppTheme."
+                  android:label="@string/pulse_counter"
+                  android:configChanges="keyboardHidden|orientation"
+        >
+        </activity>
+        <activity android:name=".ui.activities.Count"
+                  android:windowSoftInputMode="adjustPan"
+                  android:configChanges="keyboardHidden|orientation"
+        >
+        </activity>
+        <activity android:name=".ui.activities.Calories"
+                  android:windowSoftInputMode="adjustPan"
+                  android:theme="@style/ActivityAppTheme."
+                  android:label="@string/calories"
+                  android:configChanges="keyboardHidden|orientation"
+        >
+        </activity>
+        <activity
+                android:name=".ui.activities.Dashboard"
+                android:label="@string/title_activity_dashboard"
+                android:configChanges="keyboardHidden|orientation"
+                android:theme="@style/AppTheme"
+                android:hardwareAccelerated="true"
+               >
+
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>
